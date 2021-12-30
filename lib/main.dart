@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_cubit_trip_tips_app/pages/detail_page.dart';
 import 'package:flutter_cubit_trip_tips_app/pages/navpages/main_page.dart';
 import 'package:flutter_cubit_trip_tips_app/pages/welcome_page.dart';
 
@@ -26,7 +27,7 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: const MainPage(),
+      home: const DetailPage(),
     );
   }
 }
